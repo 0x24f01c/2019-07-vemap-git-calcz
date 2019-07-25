@@ -3,6 +3,10 @@
 <head>
 	<title>Schulung</title>
 	<meta charset="UTF-8">
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
 </head>
 <body>
 <form action="<?php  echo $_SERVER["PHP_SELF"];   ?>" method="post">
