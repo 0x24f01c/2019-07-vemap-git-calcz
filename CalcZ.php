@@ -8,6 +8,13 @@
             integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
             crossorigin="anonymous"></script>
 </head>
+<style>
+    div#main {
+        margin-top: 45vh;
+        max-width: 800px;
+        text-align: center;
+    }
+</style>
 <body>
 <form action="<?php  echo $_SERVER["PHP_SELF"];   ?>" method="post">
 
