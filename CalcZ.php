@@ -14,6 +14,13 @@
         max-width: 800px;
         text-align: center;
     }
+    input#submit {
+        display: none;
+    }
+    div#ergebnis {
+        font-size: 1.5rem;
+        text-align: center;
+    }
 </style>
 <body>
 <form action="<?php  echo $_SERVER["PHP_SELF"];   ?>" method="post">
