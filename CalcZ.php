@@ -9,22 +9,23 @@
             crossorigin="anonymous"></script>
 </head>
 <style>
-    div#main {
+    .main {
         margin-top: 45vh;
         max-width: 800px;
         text-align: center;
     }
 
-    input#submit {
+    .submit {
         display: none;
     }
 
-    div#ergebnis {
+    .ergebnis {
         font-size: 1.5rem;
         text-align: center;
     }
 </style>
 <body>
+<div class="main">
 <form action="<?php echo $_SERVER["PHP_SELF"]; ?>" method="post">
 
     Zahl1<br>
@@ -44,7 +45,7 @@
     <input type="submit" value="Absenden"><br>
 
 </form>
-
+</div>
 <?php
 if (isset($_POST["zahl1"])) {
     $zahl1 = (float)$_POST["zahl1"];
